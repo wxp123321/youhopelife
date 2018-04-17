@@ -1,0 +1,30 @@
+.login {
+    height: 59rem;
+}
+
+.get-vcode-box {
+    position: relative;
+}
+
+.get-vcode {
+    margin-left: 1rem;
+}
+
+.get-vcode-btn {
+    height: 2.7rem;
+    background: #008CE1;
+    line-height: 2.7rem;
+    color: #fff;
+    font-size: 1.4rem;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    margin-top: -1.35rem;
+}
+
+@media (max-width: 768px) {
+    .login {
+        background: #fff;
+    }
+}

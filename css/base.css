@@ -17,3 +17,30 @@ body {
     clear: both;
 }
 
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header {
+    height: 3.3rem;
+    line-height: 3.3rem;
+    background-color: #eeeeee;
+    color: #666;
+}
+
+.header p {
+    display: inline-block;
+}
+
+.header a {
+    color: #666;
+}
+
+.spacer {
+    color: #ccc;
+    margin: 0 1rem;
+}
+
+
+
