@@ -1,1 +1,15 @@
+.logo {
+    height: 8rem;
+    background: url(http://html.youhopelife.com/imgs/logo.png) no-repeat;
+}
 
+.search {
+    height: 3rem;
+    margin-top: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .city {
+        text-align: center;
+    }
+}
