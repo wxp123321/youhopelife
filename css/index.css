@@ -12,7 +12,7 @@
 }
 
 .search {
-    width: 40rem;
+    width: 80%;
     height: 3rem;
     padding-left: 1rem;
     border: 2px solid #008CE1;
@@ -74,17 +74,102 @@
 }
 
 
+.icon-down{
+    width: 1.8rem;
+    height: 1.4rem;
+    display: inline-block;
+    background-image: url(http://html.youhopelife.com/imgs/icons.png);
+    background-repeat: no-repeat;
+    background-position: 6px -110px;
+}
+
 .my-yh,
 .my-car {
     height: 3.4rem;
+    width: 14rem;
     line-height: 3.4rem;
     background: #f9f9f9;
     border: 1px solid #d3d3d3;
     color: #676767;
     font-size: 1.4rem;
+    margin-top: 2.2rem;
 }
 
+.my-car {
+    margin-left: 1rem;
+    width: 12.5rem;
+}
 
+.icon-car{
+    width: 2.4rem;
+    height: 2.8rem;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: 1px -75px;
+    background-image: url(http://html.youhopelife.com/imgs/icons.png);
+    background-repeat: no-repeat;
+}
+
+.head-nav{
+    height: 4.4rem;
+    border-bottom: 2px solid #018DE2;
+    margin-top: 1rem;
+}
+
+.type-content{
+    width: 17.5rem;
+    height: 4.4rem;
+    background: #018DE2;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 4.4rem;
+    cursor: pointer;
+}
+
+.types{
+    color: #fff;
+}
+
+.types:hover{
+    color: #fff;
+}
+
+.icon-xuanzhuan{
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: 6px -176px;
+    background-image: url(http://html.youhopelife.com/imgs/icons.png);
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+}
+
+.icon-xuanzhuan:hover{
+    transform: rotate(-180deg);
+}
+
+.more-type li{
+    font-size: 1.6rem;
+    color: #676767;
+    float: left;
+    height: 4.4rem;
+    line-height: 4.4rem;
+    text-align: center;
+    padding: 0 4rem;
+    cursor: pointer;
+}
+
+.online{
+    font-size: 1.6rem;
+    color: #676767;
+}
+
+.online-content{
+    height: 4.4rem;
+    line-height: 4.4rem;
+    text-align: center;
+}
 
 
 
