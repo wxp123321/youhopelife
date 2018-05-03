@@ -87,6 +87,8 @@ window.onload = function () {
 
     window.onresize = function () {
         var slider_ctrl = document.getElementById('slider_ctrl');
+        var lastLi = document.getElementById('lastLi');
+        lastLi.style.left = 40;
         slider_ctrl.style.marginLeft = (document.body.clientWidth/2-(15*imgs.length+10*imgs.length)/2)+'px';
     }
 }

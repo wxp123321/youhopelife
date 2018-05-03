@@ -47,7 +47,6 @@ ul {
 }
 
 .w-slider {
-    width: 100vw;
     position: relative;
     overflow: hidden;
 }

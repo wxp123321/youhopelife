@@ -3,12 +3,12 @@
     background: url(http://html.youhopelife.com/imgs/logo.png) no-repeat;
 }
 
-.sec{
+.sec {
     margin-top: 1.8rem;
     position: relative;
 }
 
-.search-content{
+.search-content {
     position: relative;
 }
 
@@ -52,19 +52,19 @@
     line-height: 3rem;
 }
 
-.hot-search{
+.hot-search {
     margin-top: 0.5rem;
 }
 
-.hot-text{
+.hot-text {
     font-weight: bold;
 }
 
-.hot-search a{
+.hot-search a {
     color: #333;
 }
 
-.icon-people{
+.icon-people {
     width: 2.4rem;
     height: 2.8rem;
     display: inline-block;
@@ -74,8 +74,7 @@
     background-position: -1px -15px;
 }
 
-
-.icon-down{
+.icon-down {
     width: 1.8rem;
     height: 1.4rem;
     display: inline-block;
@@ -101,7 +100,7 @@
     width: 12.5rem;
 }
 
-.icon-car{
+.icon-car {
     width: 2.4rem;
     height: 2.8rem;
     display: inline-block;
@@ -111,13 +110,13 @@
     background-repeat: no-repeat;
 }
 
-.head-nav{
+.head-nav {
     height: 5.4rem;
     border-bottom: 2px solid #018DE2;
     margin-top: 1rem;
 }
 
-.type-content{
+.type-content {
     width: 17.5rem;
     height: 5.4rem;
     background: #018DE2;
@@ -127,15 +126,15 @@
     cursor: pointer;
 }
 
-.types{
+.types {
     color: #fff;
 }
 
-.types:hover{
+.types:hover {
     color: #fff;
 }
 
-.icon-xuanzhuan{
+.icon-xuanzhuan {
     width: 3rem;
     height: 3rem;
     display: inline-block;
@@ -146,11 +145,11 @@
     transition: all 0.3s ease;
 }
 
-.icon-xuanzhuan:hover{
+.icon-xuanzhuan:hover {
     transform: rotate(-180deg);
 }
 
-.more-type li{
+.more-type li {
     font-size: 1.6rem;
     color: #676767;
     float: left;
@@ -161,56 +160,217 @@
     cursor: pointer;
 }
 
-.online{
+.online {
     font-size: 1.6rem;
     color: #676767;
 }
 
-.online-content{
+.online-content {
     height: 4.4rem;
     line-height: 5.4rem;
     text-align: center;
 }
 
+.join {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 9%;
+    width: 80%;
+    text-align: center;
+}
 
+.join img {
+    margin-right: 1rem;
+}
 
+.marks {
+    margin-left: 8.7%;
+    width: 80%;
+    border-bottom: 3px solid #018DE2;
+}
+
+.choice {
+    height: 3.2rem;
+    margin-bottom: 2rem;
+    margin-left: -1.5rem;
+}
+
+.text1,
+.text2 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.text1 {
+    color: #FE6E00;
+}
+
+.text2 {
+    color: #008CE1;
+}
+
+.text3 {
+    color: #666;
+    font-size: 1.6rem;
+    line-height: 4rem;
+}
+
+.mLeft {
+    margin-left: 8.7%;
+    width: 80%;
+    position: relative;
+}
+
+.come {
+    background: #fff;
+    border: 1px solid #D4D4D4;
+    border-top: 0;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.ad {
+    margin-bottom: 3rem;
+}
+
+.ad img {
+    width: 100%;
+}
+
+.eat {
+    border-bottom: 3px solid #018DE2;
+    display: flex;
+    flex-direction: row;
+}
+
+.titles {
+    font-weight: normal;
+    width: 25%;
+    height: 3.12rem;
+    line-height: 3.12rem;
+    font-size: 2.6rem;
+    color: #008CE1;
+    margin: 0 0 1rem 0;
+    position: relative;
+}
+
+.titles span {
+    position: absolute;
+    left: 4.6rem;
+    top: 0.15rem;
+}
+
+.titles img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.eat li {
+    float: left;
+    padding-right: 2.5rem;
+    cursor: pointer;
+}
+
+.eatUl {
+    line-height: 3.12rem;
+    font-size: 1.6rem;
+    color: #666;
+    position: relative;
+}
+
+.more {
+    line-height: 3.12rem;
+    font-size: 1.6rem;
+    color: #666;
+    position: absolute;
+    right: 3rem;
+}
+
+.lastLi {
+    position: absolute;
+    width: 5%;
+    height: 0.3rem;
+    background: #FF6D00;
+    left: 4rem;
+    bottom: -1.3rem;
+}
+
+.lastLi:after{
+    position: absolute;
+    top: -1.3rem;
+    left: 50%;
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 0.7rem;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: #FF6D00;
+    margin-left: -0.6rem;
+}
 
 @media (max-width: 768px) {
     .city {
         text-align: center;
     }
 
-    .more-type li{
+    .more-type li {
         margin-left: -1rem;
         padding: 0 3rem;
     }
 }
 
 @media (max-width: 1250px) {
-    .more-type li{
+    .more-type li {
         padding: 0 2rem;
     }
 }
 
 @media (max-width: 1053px) {
-    .more-type li{
+    .more-type li {
         padding: 0 1rem;
     }
 }
 
 @media (min-width: 670px) and (max-width: 768px) {
-    .search{
+    .search {
         width: 75%;
     }
 
-    .icon-search{
+    .icon-search {
         top: 0;
     }
 }
 
+@media (max-width: 1373px) {
+    .join img {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .titles {
+        width: 15rem;
+    }
+
+    .eat li {
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 620px) {
+    .titles {
+        width: 10rem;
+    }
+}
+
 @media (min-width: 300px) and (max-width: 480px) {
-    .more-type{
+    .more-type {
         margin: 0 auto;
+        width: 100%;
+    }
+
+    .come img {
         width: 100%;
     }
 }
