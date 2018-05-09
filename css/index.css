@@ -114,6 +114,77 @@
     height: 5.4rem;
     border-bottom: 2px solid #018DE2;
     margin-top: 1rem;
+    position: relative;
+}
+
+.many-lists {
+    position: absolute;
+    width: 36.5rem;
+    height: 46.8rem;
+    left: 19.88%;
+    top: 5.3rem;
+    background: rgba(0,0,0,.4);;
+    z-index: 1000;
+    display: none;
+}
+
+.ul-item {
+    display: none;
+}
+
+.many-lists li {
+    float: left;
+    color: #fff;
+    font-size: 1.4rem;
+    border-right: 1px solid #d3d3d3;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    padding-right: 1rem;
+}
+
+.many-lists li:hover{
+    color: rgb(211,126,60);
+    cursor: pointer;
+}
+
+.nav-list {
+    position: absolute;
+    width: 17.52rem;
+    background: #404040;
+    left: 8.37%;
+    top: 5.3rem;
+    overflow: hidden;
+    z-index: 1000;
+    display: none;
+}
+
+.nav-list a {
+    display: block;
+    color: #fff;
+    font-size: 1.4rem;
+    text-indent: 4rem;
+    height: 5.2rem;
+    line-height: 5.2rem;
+}
+
+.nav-list li {
+    width: 17.52rem;
+    height: 5.2rem;
+    border-bottom: 1px solid #6a6a6a;
+    position: relative;
+    margin-left: -4rem;
+}
+
+.icon-i {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5.2rem;
+    height: 5.2rem;
+    background-position: 25px -444px;
+    background-image: url(http://html.youhopelife.com/imgs/icons.png);
+    background-repeat: no-repeat;
 }
 
 .type-content {
@@ -484,6 +555,33 @@
     color: #2784C7;
 }
 
+.right-floor {
+    width: 5rem;
+    border: solid 1px #E0E0E0;
+}
+
+.right-floor li {
+    width: 4.8rem;
+    margin-left: -4rem;
+    border-top: solid 1px #E0E0E0;
+    padding: 0.5rem 0.5rem;
+}
+
+.right-span {
+    color: #018CDF;
+}
+
+.right-floor a {
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #666;
+}
+
+.right-floor li:hover {
+    background: rgb(0,140,225);
+}
+
 @media (max-width: 768px) {
     .city {
         text-align: center;
@@ -547,5 +645,11 @@
 
     .come img {
         width: 100%;
+    }
+}
+
+@media (max-width: 1390px) {
+    .center {
+        display: none;
     }
 }
