@@ -558,6 +558,10 @@
 .right-floor {
     width: 5rem;
     border: solid 1px #E0E0E0;
+    position: fixed;
+    right: 10.5rem;
+    top: 7rem;
+    overflow: hidden;
 }
 
 .right-floor li {
@@ -578,8 +582,12 @@
     color: #666;
 }
 
-.right-floor li:hover {
+.right-floor .right-li:hover {
     background: rgb(0,140,225);
+}
+
+.right-icon-up {
+    margin-left: -0.5rem;
 }
 
 @media (max-width: 768px) {
