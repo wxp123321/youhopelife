@@ -123,7 +123,7 @@
     height: 46.8rem;
     left: 19.88%;
     top: 5.3rem;
-    background: rgba(0,0,0,.4);;
+    background: rgba(0,0,0,.4);
     z-index: 1000;
     display: none;
 }
@@ -559,7 +559,7 @@
     width: 4.5rem;
     border: solid 1px #E0E0E0;
     position: fixed;
-    right: 10.5rem;
+    right: 7%;
     top: 5.5rem;
     overflow: hidden;
     display: none;
@@ -596,6 +596,133 @@
 
 .right-icon-up {
     margin-left: -0.5rem;
+}
+
+.w-slider {
+    margin: 0 -1.5rem;
+}
+
+.join-img {
+    position: relative;
+    height: 36.2rem;
+    background: url(http://odho0ke5x.bkt.clouddn.com/goodsimg/1466668206227.jpg) no-repeat scroll center center;;
+    background-size: 100% 100%;
+}
+
+.join-img p {
+    height: 5rem;
+    line-height: 4.5rem;
+    font-size: 2.6rem;
+    color: #666;
+}
+
+.behind-text {
+    color: #ff6c00;;
+}
+
+.jion-v {
+    position: absolute;
+    top: 50%;
+    left: 8.7%;
+    margin-top: -10rem;
+}
+
+.select-box {
+    width: 82%;
+    height: 60rem;
+    margin-left: 8.3%;
+    position: relative;
+}
+
+.amuser {
+    width: 58.9rem;
+    height: 40rem;
+    border-right: 1px solid #d3d3d3;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -20rem;
+}
+
+.amuser2 {
+    width: 58.9rem;
+    height: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 59rem;
+    margin-top: -20rem;
+}
+
+.amuser-cricle {
+    float: left;
+    width: 40rem;
+    height: 40rem;
+    border: 1px solid #EC6917;
+    border-radius: 50%;
+    position: relative;
+}
+
+.amuser-cricle2 {
+    float: right;
+    width: 40rem;
+    height: 40rem;
+    border: 1px solid #008CE1;
+    border-radius: 50%;
+    position: relative;
+}
+
+.amuser-cricle2 .mark5 {
+    background: #008CE1;;
+}
+
+.amuser-p-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10.8rem;
+    margin-left: -7.2rem;
+}
+
+.mark1 {
+    text-align: center;
+    height: 5rem;
+    font-size: 3.6rem;
+    color: #EC6917;
+    line-height: 5rem;
+}
+
+.mark2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #666;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 1rem 0;
+}
+
+.mark3 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #999;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.mark4 {
+    text-align: center;
+    height: 3.5rem;
+    margin: 1rem 0 0 0;
+}
+
+.mark4 a {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    display: inline-block;
+    background: #EC6917;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    padding: 0 3rem;
 }
 
 @media (max-width: 768px) {

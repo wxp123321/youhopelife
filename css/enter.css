@@ -1,0 +1,28 @@
+.crumb-box {
+    line-height: 5.6rem;
+    color: #999;
+    font-size: 1.6rem;
+    margin-left: 7.5%;
+}
+
+.crumbs {
+    height: 5.6rem;
+}
+
+.crumbs a {
+    color: #999;
+}
+
+.c-right,
+.c-text {
+    color: #f60;
+}
+
+.settled {
+    width: 85%;
+    height: 10rem;
+}
+
+.settled-content {
+
+}

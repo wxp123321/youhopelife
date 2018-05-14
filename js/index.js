@@ -18,7 +18,7 @@ $(function () {
         $(this).css('background', 'rgb(236,105,23)');
     });
 
-    $('.nav-list').on('mouseleave', function () {
+    $('.nav-list').on('mouseleave', function (e) {
         x.end = e.clientX;
         if(x.end - x.start < 0) {
             flag1 = true;
@@ -155,5 +155,42 @@ $(function () {
 
     $('#jump-top').on('click',function () {
         $(window).scrollTop(0);
+    });
+
+    $('#jx').on('click',function () {
+        $('.sec .row').css('display','none');
+        $('.logo-box').css('display','block');
+        $('.head-nav').css('display','block');
+
+        $('#slider_main_block').children().remove();
+        $('#slider_ctrl').children().remove();
+        var img = $('<div class="slider-main-img"><a href="#"><img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1474080582159.jpg?imageMogr2/thumbnail/2000x500!" alt=""/></a></div>')
+        $('#slider_main_block').append(img);
+    });
+
+    $('#tj').on('click',function () {
+        $('.sec .row').css('display','none');
+        $('.logo-box').css('display','block');
+        $('.head-nav').css('display','block');
+
+        $('#slider_main_block').children().remove();
+        $('#slider_ctrl').children().remove();
+        var img = $('<div class="slider-main-img"><a href="#"><img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1474080661768.jpg?imageMogr2/thumbnail/2000x500!" alt=""/></a></div>')
+        $('#slider_main_block').append(img);
+    });
+
+    $('#jf').on('click',function () {
+        $('.sec .row').css('display','none');
+        $('.logo-box').css('display','block');
+        $('.head-nav').css('display','block');
+
+        $('#slider_main_block').children().remove();
+        $('#slider_ctrl').children().remove();
+        var img = $('<div class="slider-main-img"><a href="#"><img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1474080641402.jpg?imageMogr2/thumbnail/2000x500!" alt=""/></a></div>')
+        $('#slider_main_block').append(img);
+    });
+
+    $('#sy').on('click',function () {
+        window.location = './index.html';
     });
 })
