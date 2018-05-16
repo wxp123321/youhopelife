@@ -53,6 +53,11 @@ ul {
 .w-slider {
     position: relative;
     overflow: hidden;
+    width: 102%;
+}
+
+.slider {
+    width: 100%;
 }
 
 .slider-main {
