@@ -33,24 +33,77 @@
     margin-top: 5rem;
 }
 
-.step li {
-    padding: 0 4rem;
-    margin: 0 0.5rem;
-    height: 3.5rem;
-    line-height: 3.5rem;
-    float: left;
-    background: #e5e5e5;
-    color: #b27d66;
+.step ul {
+    margin: 0;
+    padding: 0;
 }
 
-.step li:after {
-    content: '';
-    display: block;
+.step li {
+    padding: 0 6.3rem;
+    height: 4.2rem;
+    line-height: 4.2rem;
     float: left;
-    height: 0;
-    width: 0;
-    border-left: solid 1.75rem blue;
-    border-top:solid 1.75rem rgba(0,0,0,0);
-    border-bottom:solid 1.75rem rgba(0,0,0,0);
+    background: #e5e5e5;
+    color: #666;
 }
+
+.step .active-step {
+    background: #ff6c00;
+    color: #fff;
+    float: left;
+}
+
+.icon {
+    display: inline-block;
+    width: 3.2rem;
+    height: 4.2rem;
+    float: left;
+    background-image: url(http://html.youhopelife.com/imgs/icons.png);
+}
+
+.arrow1 {
+    background-position: -255px -144px;
+}
+
+.arrow2 {
+    display: inline-block;
+    width: 3.2rem;
+    height: 4.2rem;
+    float: left;
+    background-position: -253px -220px;
+    margin-left: -0.2rem;
+}
+
+.arrow3 {
+    background-position: -253px -220px;
+    margin-left: -0.2rem;
+}
+
+.enter-mark {
+    margin: 3rem 0;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    color: #999;
+}
+
+.settled-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form-list input,
+.form-list select {
+    height: 3.5rem;
+    width: 41rem;
+    margin-left: 4rem;
+    padding-left: 1rem;
+    outline: none;
+}
+
+.form-list select {
+    border-color: rgb(169, 169, 169);
+    color: black;
+}
+
 
