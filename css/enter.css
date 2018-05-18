@@ -71,12 +71,12 @@
     height: 4.2rem;
     float: left;
     background-position: -253px -220px;
-    margin-left: -0.2rem;
+    margin-left: -0.25rem;
 }
 
 .arrow3 {
     background-position: -253px -220px;
-    margin-left: -0.2rem;
+    margin-left: -0.25rem;
 }
 
 .enter-mark {
@@ -96,14 +96,97 @@
 .form-list select {
     height: 3.5rem;
     width: 41rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
     padding-left: 1rem;
     outline: none;
+    margin-top: 1.3rem;
 }
 
 .form-list select {
     border-color: rgb(169, 169, 169);
     color: black;
 }
+
+.form-list label {
+    width: 14rem;
+    color: #666;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.form-list textarea {
+    margin-left: 2rem;
+    width: 41rem;
+    height: 15rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.6rem;
+    color: #666;
+    margin-top: 1.3rem;
+    line-height: 2rem;
+    outline: none;
+}
+
+.form-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-text {
+    width: 12rem;
+    color: #666;
+    font-size: 1.6rem;
+}
+
+.logo-box {
+    margin-left: 4rem;
+}
+
+.logo-box .logo-text {
+    margin-left: 13rem;
+}
+
+.logo-list {
+    height: 12.5rem;
+    margin-left: 16rem;
+}
+
+.logo-list li {
+    float: left;
+    display: inline-block;
+    background-color: #e4e4e4;
+    width: 12.5rem;
+    height: 9.5rem;
+    background-position: -375px -400px;
+    background-image: url(http://html.youhopelife.com/imgs/icons.png);
+    position: relative;
+}
+
+.logo-list li:last-child {
+    margin-left: 15rem;
+}
+
+.logo-list li span {
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgba(0,0,0,.6);
+    display: block;
+    position: absolute;
+    bottom: -3rem;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.logo-list input[type='file'] {
+    display: none;
+}
+
+.area-desr {
+    margin-left: 16rem;
+}
+
 
 
