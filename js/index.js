@@ -114,6 +114,11 @@ $(function () {
         } else if ($(window).scrollTop() < 1300) {
             $('.right-floor').css('display','none');
         }
+        if($(window).scrollTop() >= 220) {
+            $('.logo-box').addClass('logo-box2');
+        }else if ($(window).scrollTop() < 220) {
+            $('.logo-box').removeClass('logo-box2');
+        }
     });
 
     $('#jump-eat').on('click',function () {
@@ -121,36 +126,36 @@ $(function () {
     });
 
     $('#jump-clothes').on('click',function () {
-        $(window).scrollTop(2170);
+        $(window).scrollTop(2030);
     });
 
     $('#jump-entertainment').on('click',function () {
-        $(window).scrollTop(2920);
+        $(window).scrollTop(2770);
     });
 
     $('#jump-furniture').on('click',function () {
-        $(window).scrollTop(3660);
+        $(window).scrollTop(3500);
     });
 
     $('#jump-retail').on('click',function () {
-        $(window).scrollTop(4400);
+        $(window).scrollTop(4250);
     });
 
     $('#jump-cosmetic').on('click',function () {
-        $(window).scrollTop(5140);
+        $(window).scrollTop(4980);
     });
 
     $('#jump-building').on('click',function () {
-        $(window).scrollTop(5865);
+        $(window).scrollTop(5720);
     });
 
 
     $('#jump-hotel').on('click',function () {
-        $(window).scrollTop(6462);
+        $(window).scrollTop(6300);
     });
 
     $('#jump-tourism').on('click',function () {
-        $(window).scrollTop(7200);
+        $(window).scrollTop(7045);
     });
 
     $('#jump-top').on('click',function () {

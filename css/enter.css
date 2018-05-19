@@ -188,5 +188,21 @@
     margin-left: 16rem;
 }
 
+.logo-list2 li:not(:first-child) {
+    margin-left: 2rem;
+}
+
+.submit {
+    border: 0;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    background: #EC6917;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 0 3rem;
+    border-radius: 0.5rem;
+    font-family: "Microsoft Yahei";
+    margin: 4rem 0 6rem 16rem;
+}
 
 

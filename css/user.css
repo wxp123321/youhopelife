@@ -1,0 +1,56 @@
+.main {
+    margin: 3rem 0 3rem 7.5%;
+}
+
+.left-user {
+    display: flex;
+    flex-direction: column;
+    width: 17.5rem;
+    border: 1px solid #d3d3d3;
+    background: #fff;
+    float: left;
+    padding: 1.5rem 0 1.5rem 0;
+    font-size: 1.6rem;
+    color: #666;
+}
+
+.left-mark {
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 1.5rem;
+}
+
+.left-mark i {
+    margin-left: 2rem;
+}
+
+.icon-i2 {
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    background-image: url(http://html.youhopelife.com/imgs/icons.png);
+    background-position: 33px -449px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1.5rem;
+    top: 0;
+}
+
+.left-user h3 {
+    line-height: 4rem;
+    font-size: 1.6rem;
+    color: black;
+    font-weight: bold;
+    margin: 0 1.5rem;
+}
+
+.left-user ul li {
+    position: relative;
+    height: 4rem;
+}
+
+.left-user a {
+    margin-left: 1.5rem;
+    font-size: 14px;
+    color: #666;
+    line-height: 4rem;
+}

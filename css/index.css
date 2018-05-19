@@ -510,6 +510,8 @@
     float: right;
     width: 50rem;
     margin-top: -4rem;
+    margin-left: 2rem;
+    padding-left: 6rem;
     border-left: 1px solid #d3d3d3;
 }
 
@@ -559,7 +561,7 @@
     border: solid 1px #E0E0E0;
     position: fixed;
     right: 7%;
-    top: 5.5rem;
+    top: 10.5rem;
     overflow: hidden;
     display: none;
     box-sizing: content-box;
@@ -721,6 +723,15 @@
     font-size: 1.6rem;
     border-radius: 0.5rem;
     padding: 0 3rem;
+}
+
+.logo-box2 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #eeeeee;
+    z-index: 2000;
 }
 
 @media (max-width: 768px) {
