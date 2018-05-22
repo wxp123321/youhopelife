@@ -1,5 +1,7 @@
 .main {
     margin: 3rem 0 3rem 7.5%;
+    display: flex;
+    flex-direction: row;
 }
 
 .left-user {
@@ -53,4 +55,34 @@
     font-size: 14px;
     color: #666;
     line-height: 4rem;
+}
+
+.right-user {
+    width: 95.5rem;
+    border: 1px solid #d3d3d3;
+    margin-left: 3rem;
+}
+
+.right-user p {
+    padding: 2rem 1.5rem;
+    font-size: 1.6rem;
+    color: #018DE2;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.right-user li {
+    height: 4.9rem;
+    line-height: 4.9rem;
+    margin-left: 5rem;
+}
+
+.right-user span {
+    color: #666;
+    font-size: 1.6rem;
+}
+
+.right-user a {
+    font-size: 15px;
+    color: #008CE1;
+    margin-left: 1rem;
 }
