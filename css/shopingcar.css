@@ -1,0 +1,113 @@
+.shoping-content {
+    margin-left: 8.7%;
+    width: 80%;
+    border: 1px solid #d3d3d3;
+    padding: 4rem 4rem 0 4rem;
+}
+
+.car-header {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.car-step {
+    width: 66.4rem;
+    height: 4.2rem;
+    background: #E5E5E5;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.car-step div {
+    text-align: center;
+    width: 20rem;
+    height: 4.2rem;
+    font-size: 1.6rem;
+    line-height: 4.2rem;
+    color: #666;
+}
+
+.car-step .car-first-step {
+    background: #FF6C00;
+    color: #fff;
+}
+
+.arrow1 {
+    display: inline-block;
+    background-position: -255px -144px;
+    width: 3.2rem;
+    height: 4.2rem;
+    background-repeat: no-repeat;
+    background-image: url(http://html.youhopelife.com/imgs/icons.png);
+}
+
+.arrow2 {
+    display: inline-block;
+    background-position: -253px -220px;
+    width: 3.2rem;
+    height: 4.2rem;
+    background-repeat: no-repeat;
+    background-image: url(http://html.youhopelife.com/imgs/icons.png);
+}
+
+.car-center {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.car-sign {
+    height: 4rem;
+    font-size: 2.6rem;
+    color: #666;
+}
+
+.car-icon {
+    display: inline-block;
+    width: 3.4rem;
+    height: 3rem;
+    vertical-align: -31%;
+    margin: 0 1.5rem 0 0;
+    background-position: -298px -433px;
+    background-repeat: no-repeat;
+    background-image: url(http://html.youhopelife.com/imgs/icons.png);
+}
+
+.empty-view {
+    text-align: center;
+    padding: 18rem 0;
+}
+
+.empty-view img {
+    vertical-align: -220%;
+}
+
+.guide-btns {
+    width: 17rem;
+    display: inline-block;
+    height: 10.9rem;
+    margin: 0 0 0 4rem;
+}
+
+.guide-btns span {
+    font-size: 1.8rem;
+    color: #666;
+    display: inline-block;
+    margin: 2rem 0 0 0;
+    width: 100%;
+    text-align: left;
+}
+
+.guide-btns a {
+    display: block;
+    height: 44px;
+    margin: 2rem 0 0 0;
+    line-height: 4.4rem;
+    color: #fff;
+    background: #ff6c00;
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+}

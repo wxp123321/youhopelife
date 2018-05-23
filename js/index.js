@@ -114,11 +114,6 @@ $(function () {
         } else if ($(window).scrollTop() < 1300) {
             $('.right-floor').css('display','none');
         }
-        if($(window).scrollTop() >= 220) {
-            $('.logo-box').addClass('logo-box2');
-        }else if ($(window).scrollTop() < 220) {
-            $('.logo-box').removeClass('logo-box2');
-        }
     });
 
     $('#jump-eat').on('click',function () {
