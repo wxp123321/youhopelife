@@ -1,0 +1,71 @@
+.crumb-box {
+    line-height: 5.6rem;
+    color: #999;
+    font-size: 1.6rem;
+    margin-left: 7.5%;
+}
+
+.crumbs {
+    height: 5.6rem;
+}
+
+.crumbs a {
+    color: #999;
+}
+
+.city-list {
+    width: 78.5%;
+    margin-left: 7.3%;
+    border: 1px solid #d3d3d3;
+    padding-bottom: 5rem;
+}
+
+.now-city,
+.hot-city {
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.6rem;
+    color: #666;
+    margin-left: 2rem;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.now-city a {
+    color: #ff6c00;
+}
+
+.hot-city a:last-child {
+    margin-left: 1rem;
+}
+
+.city-ul {
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+.city-ul li {
+    margin-top: 3rem;
+}
+
+.city-ul li:hover {
+    background: rgb(240,240,240);
+}
+
+.city-ul span:first-child {
+    display: inline-block;
+    width: 4.4rem;
+    height: 4.4rem;
+    border: 1px solid #d3d3d3;
+    color: #666;
+    font-size: 2rem;
+    line-height: 4.4rem;
+    text-align: center;
+    margin-left: 0;
+}
+
+.city-ul span {
+    color: #666;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}

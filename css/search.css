@@ -1,0 +1,23 @@
+.no {
+    margin: 23rem 0;
+    text-align: center;
+}
+
+.no span {
+    font-size: 1.8rem;
+    color: #666;
+}
+
+.no a {
+    display: block;
+    margin: 4rem auto 0 auto;
+    width: 17rem;
+    height: 4.4rem;
+    line-height: 4.4rem;
+    color: #fff;
+    background: #ff6c00;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+}

@@ -70,7 +70,7 @@
     border-bottom: 1px solid #d3d3d3;
 }
 
-.right-user li {
+.right-user-ul li {
     height: 4.9rem;
     line-height: 4.9rem;
     margin-left: 5rem;
@@ -189,4 +189,20 @@
 
 #modify-img {
     display: none;
+}
+
+.order-ul li {
+    float: left;
+    padding: 0 2rem;
+    border-right: 1px solid #d3d3d3;;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    color: #666;
+}
+
+.order-ul li:first-child {
+    padding: 0 1rem;
+    margin: 0 2rem;
+    background: #FFE3D3;
 }
