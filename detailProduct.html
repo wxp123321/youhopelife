@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/detailProduct.css">
+    <title>易和生活港|商品详情</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="row header">
+            <div class="city col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-6 col-xs-offset-3">
+                <p>所在城市:&nbsp;</p>
+                <a>太原</a>
+                <span class="glyphicon glyphicon-menu-down"></span>
+            </div>
+            <div class="col-lg-5 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-7 col-sm-offset-1 hidden-xs">
+                <a>登录</a>
+                <a>&nbsp;&nbsp;注册</a>
+                <p class="spacer">|</p>
+                <a>我的订单</a>
+                <p class="spacer">|</p>
+                <a>我的消息</a>
+                <p class="spacer">|</p>
+                <a>我是商家</a>
+                <p class="spacer">|</p>
+                <span>400-100-0907</span>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid sec">
+        <div class="row logo-box">
+            <div class="logo col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 hidden-sm hidden-xs"></div>
+            <div class="search-content col-lg-4 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-9 col-xs-offset-2">
+                <a class="shop">商家</a>
+                <a class="goods">商品</a>
+                <input class="search" type="text">
+                <span class="icon-search glyphicon glyphicon-search" aria-hidden="true"></span>
+                <div class="hot-search">
+                    <span class="hot-text">热门：</span>
+                    <a>烤肉</a>
+                    <a>麻辣香锅</a>
+                    <a>美发</a>
+                </div>
+            </div>
+            <div class="my-yh col-lg-1 col-md-1 col-sm-1 hidden-xs">
+                <i class="icon-people"></i>
+                <a>我的易和</a>
+                <i class="icon-down"></i>
+            </div>
+            <div class="my-car col-lg-1 col-md-1 col-sm-1 hidden-xs">
+                <i class="icon-car"></i>
+                <a>购物车</a>
+                <i class="icon-down"></i>
+            </div>
+        </div>
+        <div class="head-nav clearfix row">
+            <div class="type-content col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 hidden-xs">
+                <a class="types">行业分类</a>
+                <i class="icon-xuanzhuan"></i>
+            </div>
+            <ul class="nav-list">
+                <li id="eat" class="nav-item">
+                    <a>
+                        餐饮<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="clothes" class="nav-item">
+                    <a>
+                        服饰<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="entertainment" class="nav-item">
+                    <a>
+                        娱乐<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="furniture" class="nav-item">
+                    <a>
+                        家具<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="retail" class="nav-item">
+                    <a>
+                        零售<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="cosmetic" class="nav-item">
+                    <a>
+                        日化<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="building" class="nav-item">
+                    <a>
+                        建材<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="hotel" class="nav-item">
+                    <a>
+                        酒店<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="tourism" class="nav-item">
+                    <a>
+                        旅游<i class="icon-i"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="many-lists">
+                <ul class="ul-item ul-eat">
+                    <li>火锅</li>
+                    <li>自助餐</li>
+                    <li>小吃快餐</li>
+                    <li>日韩料理</li>
+                    <li>西餐</li>
+                    <li>烧烤烧肉</li>
+                    <li>东北菜</li>
+                </ul>
+                <ul class="ul-item ul-clothes">
+                    <li>男装</li>
+                    <li>凉鞋拖鞋</li>
+                    <li>潮流女包</li>
+                    <li>精品男包</li>
+                    <li>功能箱包</li>
+                    <li>其他服饰</li>
+                    <li>女装</li>
+                </ul>
+                <ul class="ul-item ul-entertainment">
+                    <li>桌游</li>
+                    <li>运动健身</li>
+                    <li>足疗按摩</li>
+                    <li>洗浴汗蒸</li>
+                    <li>温泉</li>
+                    <li>DIY手工</li>
+                    <li>密室逃脱</li>
+                </ul>
+                <ul class="ul-item ul-furniture">
+                    <li>成套家具</li>
+                    <li>床类</li>
+                    <li>柜类</li>
+                    <li>床垫</li>
+                    <li>沙发</li>
+                    <li>桌类</li>
+                    <li>椅凳</li>
+                </ul>
+                <ul class="ul-item ul-retail">
+                    <li>超市</li>
+                    <li>水果生鲜</li>
+                    <li>日用品</li>
+                    <li>百货</li>
+                    <li>配件</li>
+                    <li>其他产品</li>
+                </ul>
+                <ul class="ul-item ul-cosmetic">
+                    <li>面部护理</li>
+                    <li>洗发护发</li>
+                    <li>身体护理</li>
+                    <li>口腔护理</li>
+                    <li>女性护理</li>
+                    <li>香水彩妆</li>
+                </ul>
+                <ul class="ul-item ul-building">
+                    <li>基础建材</li>
+                    <li>卫浴洁具</li>
+                    <li>厨卫电器</li>
+                    <li>卫浴五金</li>
+                    <li>地板地暖</li>
+                </ul>
+                <ul class="ul-item ul-tourism">
+                    <li>温泉</li>
+                    <li>景点</li>
+                    <li>主题公园</li>
+                    <li>水上公园</li>
+                    <li>动植物园</li>
+                </ul>
+            </div>
+            <ul class="more-type col-lg-7 col-md-6 col-sm-8 col-sm-offset-0 col-xs-10 col-xs-offset-2">
+                <li id="sy">首页</li>
+                <li id="jx">精选商家</li>
+                <li id="tj">今日特价</li>
+                <li id="jf">积分商城</li>
+                <li>加入易和</li>
+            </ul>
+            <div class="online-content col-lg-1 col-md-2 hidden-sm hidden-xs">
+                <a class="online">在线客服</a>
+            </div>
+        </div>
+        <div class="detail-box">
+            <div class="detail-left-img">
+                <div>
+                    <ul class="detail-big-img">
+                        <li><img src="https://img14.360buyimg.com/n1/s450x450_jfs/t18268/295/2405272049/289676/f72562d5/5af539f0Nf686d6cc.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="detail-img-ul clearfix">
+                        <li><i class="detail-prev"></i></li>
+                        <li data-url="https://img14.360buyimg.com/n1/s450x450_jfs/t18268/295/2405272049/289676/f72562d5/5af539f0Nf686d6cc.jpg" class="detail-img-li detail-img-li-active"><img src="https://img14.360buyimg.com/n5/s54x54_jfs/t18268/295/2405272049/289676/f72562d5/5af539f0Nf686d6cc.jpg" alt=""></li>
+                        <li data-url="https://img11.360buyimg.com/n1/s450x450_jfs/t7270/354/2887332557/28867/51ee96f4/59b62d16N0e8ee2a8.jpg" class="detail-img-li"><img src="https://img14.360buyimg.com/n5/s54x54_jfs/t8251/335/1202662948/28867/51ee96f4/59b62be7N29eb79db.jpg" alt=""></li>
+                        <li data-url="https://img11.360buyimg.com/n1/s450x450_jfs/t8089/346/1190337188/61177/cb31f4b4/59b62d19Nabaf57fa.jpg" class="detail-img-li"><img src="https://img14.360buyimg.com/n5/s54x54_jfs/t11590/213/2713526628/40823/c061b116/5a1ce331Neffa853e.jpg" alt=""></li>
+                        <li data-url="https://img11.360buyimg.com/n1/s450x450_jfs/t8824/17/1235689382/95051/cb42815/59b62d1dN4fb07879.jpg" class="detail-img-li"><img src="https://img14.360buyimg.com/n5/s54x54_jfs/t8428/353/1214096449/61177/cb31f4b4/59b62bebNe0bc4c9b.jpg" alt=""></li>
+                        <li data-url="https://img11.360buyimg.com/n1/s450x450_jfs/t9406/202/2319876496/61716/c6e8bec7/59cb536cNb0ca2bef.jpg" class="detail-img-li"><img src="https://img14.360buyimg.com/n5/s54x54_jfs/t8572/54/1188996373/95051/cb42815/59b62bf3N1068251b.jpg" alt=""></li>
+                        <li><i class="detail-next"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="detail-right clearfix">
+                <div>
+                    <p class="detail-name">小米(MI)Pro 15.6英寸金属轻薄笔记本(i7-8550U 16G 256GSSD MX150 2G独显 FHD 指纹识别 预装office)深空灰</p>
+                </div>
+                <div>
+                    <div class="detail-price">
+                        <span class="detail-text">价格</span>
+                        <span>￥</span>
+                        <span>9999.00</span>
+                    </div>
+                </div>
+                <div class="detail-specifications">
+                    <a class="detail-active" href="javascript:;">
+                        <img src="https://img12.360buyimg.com/n9/s40x40_jfs/t17083/327/2335382799/285989/d34a93fa/5af50e5fNa34f717e.jpg">
+                        <i>【15.6爆款】i5-8250U 8G 256G</i>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="https://img12.360buyimg.com/n9/s40x40_jfs/t17083/327/2335382799/285989/d34a93fa/5af50e5fNa34f717e.jpg">
+                        <i>【15.6旗舰】i7-8550U 16G 256G</i>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="https://img12.360buyimg.com/n9/s40x40_jfs/t17083/327/2335382799/285989/d34a93fa/5af50e5fNa34f717e.jpg">
+                        <i>【15.6尊享】i7-8550U 8G 256G</i>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="https://img11.360buyimg.com/n9/s40x40_jfs/t20332/74/256271144/315219/667852e8/5b0780b8N4cdd3667.jpg">
+                        <i>【窄边框】I5/1T+128G/1050TI</i>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="https://img11.360buyimg.com/n9/s40x40_jfs/t20332/74/256271144/315219/667852e8/5b0780b8N4cdd3667.jpg">
+                        <i>【顶配版】四核I7/16G/GTX 1060</i>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="https://img11.360buyimg.com/n9/s40x40_jfs/t20332/74/256271144/315219/667852e8/5b0780b8N4cdd3667.jpg">
+                        <i>【经典版】四核I5/8G/GTX 1060</i>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="https://img11.360buyimg.com/n9/s40x40_jfs/t20332/74/256271144/315219/667852e8/5b0780b8N4cdd3667.jpg">
+                        <i>【精英版】四核I7/8G/GTX 1060</i>
+                    </a>
+                </div>
+                <div class="add-car">
+                    <button>加入购物车</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="clearfix top hidden-md hidden-sm hidden-xs">
+            <ul class="top-icons">
+                <a>
+                    <li>
+                        <i class="ele1"></i>正品保障
+                    </li>
+                </a>
+                <a>
+                    <li>
+                        <i class="ele2"></i>全程跟踪
+                    </li>
+                </a>
+                <a>
+                    <li>
+                        <i class="ele3"></i>客户监督
+                    </li>
+                </a>
+                <a>
+                    <li>
+                        <i class="ele4"></i>售后无忧
+                    </li>
+                </a>
+                <a>
+                    <li>
+                        <i class="ele5"></i>准时到达
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="center hidden-md hidden-sm hidden-xs">
+            <div class="v clearfix">
+                <a class="m-logo">
+                    <img class="my-logo" src="http://www.youhopelife.com/imgs/footer_logo.png">
+                </a>
+                <a>
+                    <img class="ele" src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1475138578400.jpg?imageMogr2/thumbnail/200x200!">
+                </a>
+                <a>
+                    <img class="ele" src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1479087376287.jpg?imageMogr2/thumbnail/200x200!">
+                </a>
+                <div class="my-text">
+                    <span><i class="icon-phone"></i>安卓下载</span>
+                    <span><i class="icon-phone"></i>IOS下载</span>
+                </div>
+                <ul class="foot-nav">
+                    <li>
+                        <h3>
+                            <a>关于易和</a>
+                        </h3>
+                        <h4>
+                            <a>新用户注册</a>
+                        </h4>
+                        <h4>
+                            <a>支付方式</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <h3>
+                            <a>快递说明</a>
+                        </h3>
+                        <h4>
+                            <a>验货与签收</a>
+                        </h4>
+                        <h4>
+                            <a>退换货规则</a>
+                        </h4>
+                        <h4>
+                            <a>配送方式</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <h3>
+                            <a>关于我们</a>
+                        </h3>
+                        <h4>
+                            <a>公司简介</a>
+                        </h4>
+                        <h4>
+                            <a>积分介绍</a>
+                        </h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="copyright">版权所有 &copy; 2016易和生活港&emsp;保留所有权利&emsp;|&emsp;鲁ICP备：16022180号-1</div>
+            <div class="bottom-text">易和生活&emsp;众享品质</div>
+            <div class="bottom-text">北京澳环科技提供技术支持</div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/resize.js"></script>
+    <script src="js/detailProduct.js"></script>
+</body>
+</html>
