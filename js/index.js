@@ -108,6 +108,11 @@ $(function () {
         $($(this).children().children()[0]).css('color','#018CDF');
     });
 
+    $('#jy').on('click',function () {
+        window.location = './join.html'
+    });
+
+
     $(window).on('scroll',function () {
         if($(window).scrollTop() >= 1300) {
             $('.right-floor').css('display','block');

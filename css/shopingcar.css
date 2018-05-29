@@ -58,6 +58,10 @@
     border-bottom: 1px solid #d3d3d3;
 }
 
+.car-bottom {
+    margin: 5rem 0;
+}
+
 .car-sign {
     height: 4rem;
     font-size: 2.6rem;
@@ -78,6 +82,7 @@
 .empty-view {
     text-align: center;
     padding: 18rem 0;
+    display: none;
 }
 
 .empty-view img {
@@ -111,3 +116,137 @@
     font-size: 1.6rem;
     border-radius: 0.5rem;
 }
+
+.have-product-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.have-product-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.p-box {
+    border-bottom: 1px solid #ccc;
+}
+
+.yh {
+    font-size: 1.4rem;
+    color: #666;
+    text-indent: 1rem;
+    margin: 1rem 0;
+}
+
+.have-product {
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.have-product-list {
+    height: 10rem;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+}
+
+.check-box {
+    margin-left: 1rem;
+}
+
+.have-product-list .have-product-check {
+    margin-top: 3.35rem;
+}
+
+.total-price {
+    margin-top: 3rem;
+}
+
+.have-product-info img {
+    margin-left: 1rem;
+    border: 1px solid #ccc;
+}
+
+.info-name {
+    width: 20rem;
+    margin-left: 1rem;
+    color: #666;
+}
+
+.seven {
+    color: #008CE1;
+}
+
+.info-g {
+    margin-left: 1rem;
+    color: #666;
+}
+
+.info-d {
+    margin-left: 7rem;
+    color: red;
+}
+
+.info-n {
+    height: 2.2rem;
+    margin-left: 3rem;
+    border: 1px solid #ccc;
+    line-height: 2.2rem;
+    overflow: hidden;
+}
+
+.info-n span {
+    display: inline-block;
+}
+
+.info-n .rec,
+.info-n .add {
+    width: 1.7rem;
+    height: 2.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.info-n .rec {
+    border-right: 1px solid #ccc;
+}
+
+.info-n .add {
+    border-left: 1px solid #ccc;
+}
+
+.info-n .number {
+    width: 4.6rem;
+    text-align: center;
+}
+
+.all-price {
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.total-price {
+    margin-bottom: 5rem;
+    border: 1px solid #ccc;
+}
+
+.total-price div {
+    float: right;
+}
+
+.settlement {
+    height: 5.2rem;
+    width: 9.6rem;
+    background: #ff6c00;
+    color: #fff;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.total-price .price-span,
+.total-price .price-span2{
+    color: red;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
