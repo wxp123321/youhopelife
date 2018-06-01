@@ -104,3 +104,59 @@
     border: 0;
     margin-right: 3rem;
 }
+
+.yj {
+    margin-right: 1rem;
+    text-decoration: line-through;
+}
+
+.now-price {
+    font-weight: bold;
+}
+
+.detail-price .hot-jr {
+    background: red;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 1.2rem !important;
+    padding: 0.3rem;
+    margin-top: -0.5rem;
+}
+
+@media (max-width: 1155px) {
+    .add-car button:first-child {
+        margin-bottom: 2rem;
+    }
+
+    .add-car button {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 1010px) {
+    .detail-box {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .detail-specifications img {
+        display: none;
+    }
+
+    .detail-specifications a {
+        height: 4.2rem;
+        line-height: 4.2rem;
+        overflow: hidden;
+    }
+
+    .detail-name {
+        max-height: 6.8rem;
+        overflow: hidden;
+    }
+
+    .add-car button {
+        width: 20rem;
+    }
+}

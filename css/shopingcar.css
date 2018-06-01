@@ -262,3 +262,50 @@
     color: red;
 }
 
+@media (max-width: 1200px) {
+    .info-g p {
+        display: none;
+    }
+
+    .car-header img {
+        display: none;
+    }
+
+    .info-d {
+        margin-left: 1rem;
+    }
+
+    .info-name {
+        width: 13rem;
+    }
+}
+
+@media (max-width: 930px) {
+    .car-header {
+        display: none;
+    }
+
+    .car-center {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 860px) {
+    .info-d {
+        display: none;
+    }
+
+    .shoping-content {
+        border: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 620px) {
+    .info-name p:first-child {
+        height: 5rem;
+        overflow: hidden;
+        width: 8rem;
+    }
+}

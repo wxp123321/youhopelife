@@ -50,4 +50,13 @@ $(function () {
             $('.price-span2').html(parseFloat($('.price-span2').html()) - parseFloat($($($(this).parent().next().children()[5]).children()[1]).html())+'.00');
         }
     });
+    
+    $('.delete-detail').on('click',function () {
+       $(this).parent().parent().parent().remove();
+       if($('.delete-detail').length <= 0) {
+           $('.have-product').css('display','none');
+           $('.total-price').css('display','none');
+           $('.empty-view').css('display','block');
+       }
+    });
 });
