@@ -129,12 +129,13 @@
 
 .p-box {
     border-bottom: 1px solid #ccc;
+    position: relative;
 }
 
 .yh {
     font-size: 1.4rem;
     color: #666;
-    text-indent: 1rem;
+    text-indent: 3rem;
     margin: 1rem 0;
 }
 
@@ -151,6 +152,11 @@
 
 .check-box {
     margin-left: 1rem;
+}
+
+.p-box input[type='checkbox'] {
+    position: absolute;
+    left: 1rem;
 }
 
 .have-product-list .have-product-check {
@@ -248,5 +254,11 @@
     color: red;
     font-size: 1.6rem;
     font-weight: 700;
+}
+
+.delete-detail {
+    margin-left: 1.5rem;
+    cursor: pointer;
+    color: red;
 }
 
