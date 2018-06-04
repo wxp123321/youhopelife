@@ -127,6 +127,11 @@
     flex-direction: row;
 }
 
+.have-product-info img {
+    width: 8.2rem;
+    height: 7.9rem;
+}
+
 .p-box {
     border-bottom: 1px solid #ccc;
     position: relative;

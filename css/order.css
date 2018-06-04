@@ -1,0 +1,29 @@
+.have-order {
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 3rem 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-list {
+
+}
+
+.order-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.order-top span {
+    font-size: 1.4rem;
+}
+
+.order-number {
+
+}
+
+.order-bottom {
+    display: flex;
+    flex-direction: row;
+}

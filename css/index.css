@@ -734,6 +734,148 @@
     z-index: 2000;
 }
 
+.jf-content {
+    width: 85%;
+    margin-left: 8%;
+    display: none;
+}
+
+.jf-product-list {
+    width: 23rem;
+    margin: 3rem;
+    border: 1px solid #eee;
+    float: left;
+}
+
+.jf-product-list img {
+    width: 18.5rem;
+    height: 18.5rem;
+    margin-left: 2.25rem;
+    margin-top: 1rem;
+}
+
+.jf-product-list > p {
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    color: black;
+    font-size: 1.6rem;
+}
+
+.jz span:first-child {
+    height: 3rem;
+    line-height: 3rem;
+    color: #FF6C00;
+    font-size: 1.6rem;
+    margin-left: 2.5rem;
+}
+
+.jz span:last-child {
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    color: #666;
+}
+
+.jf-product-list button {
+    color: #fff;
+    margin: 2rem 0 2rem 7.9rem;
+    border: 0;
+    width: 7.2rem;
+    height: 3rem;
+    line-height: 3rem;
+    background: #FF6C00;
+    border-radius: 0.5rem;
+}
+
+.jx-content,
+.tj-content {
+    width: 85%;
+    margin-left: 8%;
+    display: none;
+}
+
+.jx-product-list2 {
+    width: 28.8rem;
+    float: left;
+    margin: 2rem;
+}
+
+.sj-name {
+    margin-top: 2rem;
+}
+
+.jx-product-list2 img {
+    width: 28.7rem;
+    height: 15rem;
+}
+
+.jx-product-list2 span {
+    margin-left: 1rem;
+}
+
+.tj span {
+    margin-left: 2.5rem;
+    font-size: 1.6rem;
+    color: red;
+}
+
+.jx-i1,
+.jx-i2,
+.jx-i3 {
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.7rem;
+}
+
+.jx-i1 {
+    background-image: url('http://www.youhopelife.com/imgs/sj.png');
+    background-repeat: no-repeat;
+    vertical-align: -12%;
+}
+
+.jx-i2 {
+    background-image: url('http://www.youhopelife.com/imgs/icons.png');
+    background-repeat: no-repeat;
+    vertical-align: -12%;
+    background-position: -204px -52px;
+}
+
+.jx-i3 {
+    background-image: url('http://www.youhopelife.com/imgs/icons.png');
+    background-repeat: no-repeat;
+    vertical-align: -12%;
+    background-position: -204px -83px;
+}
+
+.tj .yj-p {
+    font-size: 1.6rem;
+    color: #666;
+    text-decoration: line-through;
+}
+
+.tj .xsl {
+    font-size: 1.6rem;
+    color: #666;
+}
+
+.tj {
+    display: flex;
+    flex-direction: column;
+}
+
+.jf-product-list .s-name {
+    line-height: 3rem;
+    height: 3rem;
+    text-align: center;
+    margin: 1rem 0 0 0;
+}
+
+.f-img {
+    width: 31.6rem;
+    height: 51.1rem;
+}
+
 @media (max-width: 768px) {
     .city {
         text-align: center;
