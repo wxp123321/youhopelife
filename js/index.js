@@ -24,6 +24,7 @@ var json = {
     }]
 }
 
+
 function cut(jsonArr) {
     var html = '';
     for (var i = 0; i < jsonArr.length; i++) {
@@ -46,6 +47,13 @@ function cut(jsonArr) {
 }
 
 $(function () {
+
+    var data = json['火锅'];
+    var html = cut(data);
+    $('.eat-f')[0].innerHTML = html;
+    for(var i = 0;i<data.length;i++){
+        $($('.sz-img')[i]).attr('src',data[i].imgUrl);
+    }
 
     $('.item').on('mouseover', function (e) {
         var width = parseInt($(this).width() / 2 - 15);
