@@ -31,7 +31,7 @@ window.onresize = function () {
         tj_content[0].style.marginLeft = tjleft / 2 + 'px';
     }
     for (var i = 0; i < lastLi.length; i++) {
-        lastLi[i].style.left = '40px';
+        lastLi[i].style.left = '0';
     }
     many_lists[0].style.left = (parseInt(document.body.clientWidth * 0.0837) + 175) + 'px';
     slider_ctrl.style.marginLeft = (document.body.clientWidth / 2 - (15 * imgs.length + 10 * imgs.length) / 2) + 'px';
