@@ -5,7 +5,7 @@ var x = {
     end: 0
 }
 
-var json = {
+var json = [{
     '火锅': [{
         'pname': '商品1',
         'sname': '商家1',
@@ -13,7 +13,47 @@ var json = {
         'y_price': '999',
         'number': '654',
         'imgUrl': 'http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!'
-    }],
+    },
+        {
+            'pname': '商品1',
+            'sname': '商家1',
+            'now_price': '888',
+            'y_price': '999',
+            'number': '654',
+            'imgUrl': 'http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!'
+        },
+        {
+            'pname': '商品1',
+            'sname': '商家1',
+            'now_price': '888',
+            'y_price': '999',
+            'number': '654',
+            'imgUrl': 'http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!'
+        },
+        {
+            'pname': '商品1',
+            'sname': '商家1',
+            'now_price': '888',
+            'y_price': '999',
+            'number': '654',
+            'imgUrl': 'http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!'
+        },
+        {
+            'pname': '商品1',
+            'sname': '商家1',
+            'now_price': '888',
+            'y_price': '999',
+            'number': '654',
+            'imgUrl': 'http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!'
+        },
+        {
+            'pname': '商品1',
+            'sname': '商家1',
+            'now_price': '888',
+            'y_price': '999',
+            'number': '654',
+            'imgUrl': 'http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!'
+        }],
     '自助餐': [{
         'pname': '商品2',
         'sname': '商家2',
@@ -22,7 +62,7 @@ var json = {
         'number': '654',
         'imgUrl': 'images/rj.jpg'
     }]
-}
+}]
 
 
 function cut(jsonArr) {
@@ -35,36 +75,34 @@ function cut(jsonArr) {
             '                    <div class="tj">\n' +
             '                        <span>价格：￥' + jsonArr[i].now_price + '</span>\n' +
             '                        <span class="yj-p">原价：￥' + jsonArr[i].y_price + '</span>\n' +
-            '                        <span class="xsl">销售量：' + jsonArr[i].number
-        '</span>\n' +
-        '                    </div>\n' +
-        '                    <div>\n' +
-        '                        <button>购买</button>\n' +
-        '                    </div>\n' +
-        '                </div>';
+            '                        <span class="xsl">销售量：' + jsonArr[i].number + '</span></div><div><button>购买</button></div></div>';
     }
     return html;
 }
 
 $(function () {
-
-    var data = json['火锅'];
-    var html = cut(data);
-    $('.eat-f')[0].innerHTML = html;
-    for(var i = 0;i<data.length;i++){
-        $($('.sz-img')[i]).attr('src',data[i].imgUrl);
+    function scrollTo(ele, speed) {
+        if (!speed) speed = 300;
+        if (!ele) {
+            $("html,body").animate({scrollTop: 0}, speed);
+        } else {
+            if (ele.length > 0) {
+                $("html,body").animate({scrollTop: $(ele).offset().top - 80}, speed);
+            }
+        }
+        return false;
     }
 
     $('.item').on('mouseover', function (e) {
         var width = parseInt($(this).width() / 2 - 15);
         $(this).parent().children(':last-child').css('left', this.offsetLeft + width);
-        var data = json[$(this).html()];
-        console.log($(this).html());
+        var floor = $(this).parent().attr('data-floor');
+        var data = json[floor - 1][$(this).html()];
         var html = cut(data);
         $(this).parent().parent().parent().next().children().remove();
         $(this).parent().parent().parent().next().html(html);
-        for(var i = 0;i<data.length;i++){
-            $($('.sz-img')[i]).attr('src',data[i].imgUrl);
+        for (var i = 0; i < data.length; i++) {
+            $($('.sz-img')[i]).attr('src', data[i].imgUrl);
         }
     });
 
@@ -180,40 +218,40 @@ $(function () {
     });
 
     $('#jump-eat').on('click', function () {
-        $(window).scrollTop(1300);
+        scrollTo('.eat');
     });
 
     $('#jump-clothes').on('click', function () {
-        $(window).scrollTop(2030);
+        scrollTo('.clothes');
     });
 
     $('#jump-entertainment').on('click', function () {
-        $(window).scrollTop(2770);
+        scrollTo('.entertainment');
     });
 
     $('#jump-furniture').on('click', function () {
-        $(window).scrollTop(3500);
+        scrollTo('.furniture');
     });
 
     $('#jump-retail').on('click', function () {
-        $(window).scrollTop(4250);
+        scrollTo('.retail');
     });
 
     $('#jump-cosmetic').on('click', function () {
-        $(window).scrollTop(4980);
+        scrollTo('.cosmetic');
     });
 
     $('#jump-building').on('click', function () {
-        $(window).scrollTop(5720);
+        scrollTo('.building');
     });
 
 
     $('#jump-hotel').on('click', function () {
-        $(window).scrollTop(6300);
+        scrollTo('.hotel');
     });
 
     $('#jump-tourism').on('click', function () {
-        $(window).scrollTop(7045);
+        scrollTo('.tourism');
     });
 
     $('#jump-top').on('click', function () {
@@ -279,6 +317,12 @@ $(function () {
 
     var tiao = getUrlParam('tiao');
     $('#' + tiao).trigger('click');
+    var data = json[0]['火锅'];
+    var html = cut(data);
+    $('.eat-f')[0].innerHTML = html;
+    for (var i = 0; i < data.length; i++) {
+        $($('.sz-img')[i]).attr('src', data[i].imgUrl);
+    }
 })
 
 function getUrlParam(name) {

@@ -11,75 +11,344 @@
     <title></title>
 </head>
 <body>
-    <div style="display: block" class="tj-content clearfix">
-        <div class="clearfix">
-            <div class="jf-product-list">
-                <p class="s-name">商家</p>
-                <img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!">
-                <p>食用油</p>
-                <div class="tj">
-                    <span>价格：￥1000</span>
-                    <span class="yj-p">原价：￥1999</span>
-                    <span class="xsl">销售量：100</span>
-                </div>
-                <div>
-                    <button>购买</button>
-                </div>
-            </div>
-            <div class="jf-product-list">
-                <p class="s-name">商家</p>
-                <img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!">
-                <p>食用油</p>
-                <div class="tj">
-                    <span>价格：￥1000</span>
-                    <span class="yj-p">原价：￥1999</span>
-                    <span class="xsl">销售量：100</span>
-                </div>
-                <div>
-                    <button>购买</button>
-                </div>
-            </div>
-            <div class="jf-product-list">
-                <p class="s-name">商家</p>
-                <img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!">
-                <p>食用油</p>
-                <div class="tj">
-                    <span>价格：￥1000</span>
-                    <span class="yj-p">原价：￥1999</span>
-                    <span class="xsl">销售量：100</span>
-                </div>
-                <div>
-                    <button>购买</button>
+    <div class="container-fluid">
+    <nav class="row header">
+        <div class="city col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-6 col-xs-offset-3">
+            <p>所在城市:&nbsp;</p>
+            <a class="my-city" href="javascript:;">太原</a>
+            <span class="glyphicon glyphicon-menu-down"></span>
+        </div>
+        <div class="col-lg-5 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-7 col-sm-offset-1 hidden-xs">
+            <a>登录</a>
+            <a>&nbsp;&nbsp;注册</a>
+            <p class="spacer">|</p>
+            <a>我的订单</a>
+            <p class="spacer">|</p>
+            <a>我的消息</a>
+            <p class="spacer">|</p>
+            <a>我是商家</a>
+            <p class="spacer">|</p>
+            <span>400-100-0907</span>
+        </div>
+    </nav>
+</div>
+    <div class="container-fluid sec">
+        <div class="row logo-box">
+            <div class="logo col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 hidden-sm hidden-xs"></div>
+            <div class="search-content col-lg-4 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-9 col-xs-offset-2">
+                <a class="shop">商家</a>
+                <a class="goods">商品</a>
+                <input class="search" type="text">
+                <span class="icon-search glyphicon glyphicon-search" aria-hidden="true"></span>
+                <div class="hot-search">
+                    <span class="hot-text">热门：</span>
+                    <a>烤肉</a>
+                    <a>麻辣香锅</a>
+                    <a>美发</a>
                 </div>
             </div>
-            <div class="jf-product-list">
-                <p class="s-name">商家</p>
-                <img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!">
-                <p>食用油</p>
-                <div class="tj">
-                    <span>价格：￥1000</span>
-                    <span class="yj-p">原价：￥1999</span>
-                    <span class="xsl">销售量：100</span>
-                </div>
-                <div>
-                    <button>购买</button>
-                </div>
+            <div class="my-yh col-lg-1 col-md-1 col-sm-1 hidden-xs">
+                <i class="icon-people"></i>
+                <a>我的易和</a>
+                <i class="icon-down"></i>
             </div>
-            <div class="jf-product-list">
-                <p class="s-name">商家</p>
-                <img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!">
-                <p>食用油</p>
-                <div class="tj">
-                    <span>价格：￥1000</span>
-                    <span class="yj-p">原价：￥1999</span>
-                    <span class="xsl">销售量：100</span>
+            <div class="my-car col-lg-1 col-md-1 col-sm-1 hidden-xs">
+                <i class="icon-car"></i>
+                <a>购物车</a>
+                <i class="icon-down"></i>
+            </div>
+        </div>
+        <div class="head-nav clearfix row">
+            <div class="type-content col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 hidden-xs">
+                <a class="types">行业分类</a>
+                <i class="icon-xuanzhuan"></i>
+            </div>
+            <ul class="nav-list">
+                <li id="eat" class="nav-item">
+                    <a>
+                        餐饮<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="clothes" class="nav-item">
+                    <a>
+                        服饰<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="entertainment" class="nav-item">
+                    <a>
+                        娱乐<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="furniture" class="nav-item">
+                    <a>
+                        家具<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="retail" class="nav-item">
+                    <a>
+                        零售<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="cosmetic" class="nav-item">
+                    <a>
+                        日化<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="building" class="nav-item">
+                    <a>
+                        建材<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="hotel" class="nav-item">
+                    <a>
+                        酒店<i class="icon-i"></i>
+                    </a>
+                </li>
+                <li id="tourism" class="nav-item">
+                    <a>
+                        旅游<i class="icon-i"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="many-lists">
+                <ul class="ul-item ul-eat">
+                    <li>火锅</li>
+                    <li>自助餐</li>
+                    <li>小吃快餐</li>
+                    <li>日韩料理</li>
+                    <li>西餐</li>
+                    <li>烧烤烧肉</li>
+                    <li>东北菜</li>
+                </ul>
+                <ul class="ul-item ul-clothes">
+                    <li>男装</li>
+                    <li>凉鞋拖鞋</li>
+                    <li>潮流女包</li>
+                    <li>精品男包</li>
+                    <li>功能箱包</li>
+                    <li>其他服饰</li>
+                    <li>女装</li>
+                </ul>
+                <ul class="ul-item ul-entertainment">
+                    <li>桌游</li>
+                    <li>运动健身</li>
+                    <li>足疗按摩</li>
+                    <li>洗浴汗蒸</li>
+                    <li>温泉</li>
+                    <li>DIY手工</li>
+                    <li>密室逃脱</li>
+                </ul>
+                <ul class="ul-item ul-furniture">
+                    <li>成套家具</li>
+                    <li>床类</li>
+                    <li>柜类</li>
+                    <li>床垫</li>
+                    <li>沙发</li>
+                    <li>桌类</li>
+                    <li>椅凳</li>
+                </ul>
+                <ul class="ul-item ul-retail">
+                    <li>超市</li>
+                    <li>水果生鲜</li>
+                    <li>日用品</li>
+                    <li>百货</li>
+                    <li>配件</li>
+                    <li>其他产品</li>
+                </ul>
+                <ul class="ul-item ul-cosmetic">
+                    <li>面部护理</li>
+                    <li>洗发护发</li>
+                    <li>身体护理</li>
+                    <li>口腔护理</li>
+                    <li>女性护理</li>
+                    <li>香水彩妆</li>
+                </ul>
+                <ul class="ul-item ul-building">
+                    <li>基础建材</li>
+                    <li>卫浴洁具</li>
+                    <li>厨卫电器</li>
+                    <li>卫浴五金</li>
+                    <li>地板地暖</li>
+                </ul>
+                <ul class="ul-item ul-tourism">
+                    <li>温泉</li>
+                    <li>景点</li>
+                    <li>主题公园</li>
+                    <li>水上公园</li>
+                    <li>动植物园</li>
+                </ul>
+            </div>
+            <ul class="more-type col-lg-8 col-md-8 col-sm-8 col-sm-offset-0 col-xs-10 col-xs-offset-2">
+                <li id="sy">首页</li>
+                <li id="jx">精选商家</li>
+                <li id="tj">今日特价</li>
+                <li id="jf">积分商城</li>
+                <li id="jy">加入易和</li>
+            </ul>
+        </div>
+        <div style="display: block" class="tj-content clearfix">
+            <div class="clearfix">
+                <div class="jf-product-list">
+                    <p class="s-name">商家</p>
+                    <img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!">
+                    <p>食用油</p>
+                    <div class="tj">
+                        <span>价格：￥1000</span>
+                        <span class="yj-p">原价：￥1999</span>
+                        <span class="xsl">销售量：100</span>
+                    </div>
+                    <div>
+                        <button>购买</button>
+                    </div>
                 </div>
-                <div>
-                    <button>购买</button>
+                <div class="jf-product-list">
+                    <p class="s-name">商家</p>
+                    <img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!">
+                    <p>食用油</p>
+                    <div class="tj">
+                        <span>价格：￥1000</span>
+                        <span class="yj-p">原价：￥1999</span>
+                        <span class="xsl">销售量：100</span>
+                    </div>
+                    <div>
+                        <button>购买</button>
+                    </div>
+                </div>
+                <div class="jf-product-list">
+                    <p class="s-name">商家</p>
+                    <img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!">
+                    <p>食用油</p>
+                    <div class="tj">
+                        <span>价格：￥1000</span>
+                        <span class="yj-p">原价：￥1999</span>
+                        <span class="xsl">销售量：100</span>
+                    </div>
+                    <div>
+                        <button>购买</button>
+                    </div>
+                </div>
+                <div class="jf-product-list">
+                    <p class="s-name">商家</p>
+                    <img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!">
+                    <p>食用油</p>
+                    <div class="tj">
+                        <span>价格：￥1000</span>
+                        <span class="yj-p">原价：￥1999</span>
+                        <span class="xsl">销售量：100</span>
+                    </div>
+                    <div>
+                        <button>购买</button>
+                    </div>
+                </div>
+                <div class="jf-product-list">
+                    <p class="s-name">商家</p>
+                    <img src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!">
+                    <p>食用油</p>
+                    <div class="tj">
+                        <span>价格：￥1000</span>
+                        <span class="yj-p">原价：￥1999</span>
+                        <span class="xsl">销售量：100</span>
+                    </div>
+                    <div>
+                        <button>购买</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="foot">
+        <div class="clearfix top hidden-md hidden-sm hidden-xs">
+            <ul class="top-icons">
+                <a>
+                    <li>
+                        <i class="ele1"></i>正品保障
+                    </li>
+                </a>
+                <a>
+                    <li>
+                        <i class="ele2"></i>全程跟踪
+                    </li>
+                </a>
+                <a>
+                    <li>
+                        <i class="ele3"></i>客户监督
+                    </li>
+                </a>
+                <a>
+                    <li>
+                        <i class="ele4"></i>售后无忧
+                    </li>
+                </a>
+                <a>
+                    <li>
+                        <i class="ele5"></i>准时到达
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="center hidden-md hidden-sm hidden-xs">
+            <div class="v clearfix">
+                <a class="m-logo">
+                    <img class="my-logo" src="http://www.youhopelife.com/imgs/footer_logo.png">
+                </a>
+                <a>
+                    <img class="ele" src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1475138578400.jpg?imageMogr2/thumbnail/200x200!">
+                </a>
+                <a>
+                    <img class="ele" src="http://odho0ke5x.bkt.clouddn.com/goodsimg/1479087376287.jpg?imageMogr2/thumbnail/200x200!">
+                </a>
+                <div class="my-text">
+                    <span><i class="icon-phone"></i>安卓下载</span>
+                    <span><i class="icon-phone"></i>IOS下载</span>
+                </div>
+                <ul class="foot-nav">
+                    <li>
+                        <h3>
+                            <a>关于易和</a>
+                        </h3>
+                        <h4>
+                            <a>新用户注册</a>
+                        </h4>
+                        <h4>
+                            <a>支付方式</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <h3>
+                            <a>快递说明</a>
+                        </h3>
+                        <h4>
+                            <a>验货与签收</a>
+                        </h4>
+                        <h4>
+                            <a>退换货规则</a>
+                        </h4>
+                        <h4>
+                            <a>配送方式</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <h3>
+                            <a>关于我们</a>
+                        </h3>
+                        <h4>
+                            <a>公司简介</a>
+                        </h4>
+                        <h4>
+                            <a>积分介绍</a>
+                        </h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="copyright">版权所有 &copy; 2016易和生活港&emsp;保留所有权利&emsp;|&emsp;鲁ICP备：16022180号-1</div>
+            <div class="bottom-text">易和生活&emsp;众享品质</div>
+            <div class="bottom-text">北京澳环科技提供技术支持</div>
+        </div>
+    </div>
     <script src="js/shangpin.js"></script>
+    <script src="js/join.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

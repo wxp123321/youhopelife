@@ -6,6 +6,7 @@ window.onresize = function () {
     var jx_content = document.getElementsByClassName('jx-content');
     var jf_content = document.getElementsByClassName('jf-content');
     var tj_content = document.getElementsByClassName('tj-content');
+    var imgs = document.getElementsByClassName('slider-main-img');
 
     var wWidth = document.body.clientWidth;
     jx_content[0].style.width = wWidth * 0.85 + 'px';
