@@ -3,6 +3,13 @@ window.onload = function () {
     var slider_main_block = document.getElementById('slider_main_block');
     var imgs = slider_main_block.children;
     var slider_ctrl = document.getElementById('slider_ctrl');
+
+    var iW = document.getElementsByClassName('sz-img');
+    if (iW.length > 0) {
+        for (var i = 0; i <iW.length;i++) {
+            iW[i].style.height = iW[i].clientWidth + 'px';
+        }
+    }
     //生成小span
     for(var i = 0; i < imgs.length;i++)
     {

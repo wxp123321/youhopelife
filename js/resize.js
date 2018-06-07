@@ -7,11 +7,17 @@ window.onresize = function () {
     var jf_content = document.getElementsByClassName('jf-content');
     var tj_content = document.getElementsByClassName('tj-content');
     var imgs = document.getElementsByClassName('slider-main-img');
+    var iW = document.getElementsByClassName('sz-img');
+    if (iW.length > 0) {
+        for (var i = 0; i <iW.length;i++) {
+            iW[i].style.height = iW[i].clientWidth + 'px';
+        }
+    }
 
     var wWidth = document.body.clientWidth;
     jx_content[0].style.width = wWidth * 0.85 + 'px';
     jf_content[0].style.width = wWidth * 0.85 + 'px';
-    tj_content[0].style.width = wWidth * 0.85 + 'px';
+    // tj_content[0].style.width = wWidth * 0.85 + 'px';
     if (jx_content[0].style.display == 'block') {
         var jxlen = Math.floor(jx_content[0].clientWidth / 330);
         jx_content[0].style.width = 330 * jxlen + 10 + 'px';
@@ -25,12 +31,12 @@ window.onresize = function () {
         jf_content[0].style.marginLeft = jfleft / 2 + 'px';
     }
 
-    if (tj_content[0].style.display == 'block') {
-        var tjlen = Math.floor(tj_content[0].clientWidth / 290);
-        tj_content[0].style.width = 290 * tjlen + 10 + 'px';
-        var tjleft = wWidth - tj_content[0].clientWidth;
-        tj_content[0].style.marginLeft = tjleft / 2 + 'px';
-    }
+    // if (tj_content[0].style.display == 'block') {
+    //     var tjlen = Math.floor(tj_content[0].clientWidth / 290);
+    //     tj_content[0].style.width = 290 * tjlen + 10 + 'px';
+    //     var tjleft = wWidth - tj_content[0].clientWidth;
+    //     tj_content[0].style.marginLeft = tjleft / 2 + 'px';
+    // }
     for (var i = 0; i < lastLi.length; i++) {
         lastLi[i].style.left = '0';
     }

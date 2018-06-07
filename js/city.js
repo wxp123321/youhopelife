@@ -1,5 +1,6 @@
 $(function () {
     var city = getUrlParam('city');
+    console.log(city);
     $('.y-city').html(city);
 
     $('.city-ul li').on('mouseover',function () {

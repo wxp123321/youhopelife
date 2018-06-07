@@ -561,7 +561,7 @@
     border: solid 1px #E0E0E0;
     position: fixed;
     right: 7%;
-    top: 10.5rem;
+    bottom: 10.5rem;
     overflow: hidden;
     display: none;
     box-sizing: content-box;
@@ -755,6 +755,7 @@
 
 .jf-product-list img {
     width: 80%;
+    height: 46%;
     margin-left: 10%;
     margin-top: 1rem;
 }
@@ -793,10 +794,10 @@
     border-radius: 0.5rem;
 }
 
-.jx-content,
-.tj-content {
-    width: 85%;
-    margin-left: 8%;
+.tj-content,
+.jx-content {
+    width: 81%;
+    margin-left: 10%;
     display: none;
 }
 
@@ -829,13 +830,13 @@
 .jx-i2,
 .jx-i3 {
     display: inline-block;
+    background-repeat: no-repeat;
     width: 1.6rem;
     height: 1.7rem;
 }
 
 .jx-i1 {
     background-image: url('http://www.youhopelife.com/imgs/sj.png');
-    background-repeat: no-repeat;
     vertical-align: -12%;
 }
 
@@ -879,6 +880,10 @@
 .f-img {
     width: 31.6rem;
     height: 51.1rem;
+}
+
+.join img {
+    width: 22%;
 }
 
 /*.eat-f {*/
@@ -957,5 +962,12 @@
 @media (max-width: 1390px) {
     .center {
         display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .join img {
+        width: 20%;
+        margin-right: 0.5rem;
     }
 }

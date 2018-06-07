@@ -12,7 +12,7 @@ var json = [{
         'now_price': '888',
         'y_price': '999',
         'number': '654',
-        'imgUrl': 'http://odho0ke5x.bkt.clouddn.com/goodsimg/1487535290891.jpg?imageMogr2/thumbnail/230x230!'
+        'imgUrl': 'images/444.jpg'
     },
         {
             'pname': '商品1',
@@ -280,6 +280,7 @@ $(function () {
         $('.jf-content').css('display', 'none');
         $('.jx-content').css('display', 'none');
         $('.tj-content').css('display', 'block');
+        $('.jf-product-list').css('margin','1.5%');
 
         $('#slider_main_block > div').remove();
         $('#slider_ctrl').children().remove();
@@ -295,6 +296,7 @@ $(function () {
         $('.jf-content').css('display', 'block');
         $('.jx-content').css('display', 'none');
         $('.tj-content').css('display', 'none');
+        $('.jf-product-list').css('margin','1.5%');
 
         $('#slider_main_block').children().remove();
         $('#slider_ctrl').children().remove();
@@ -305,6 +307,7 @@ $(function () {
 
     $('#sy').on('click', function () {
         window.location = './index.html';
+        $('.jf-product-list').css('margin','2%');
     });
 
     $('.my-city').on('click', function () {
@@ -313,13 +316,16 @@ $(function () {
 
 
     var city = getUrlParam('city');
-    $('.my-city').html(city);
+    $('.my-city').html(city == null?'太原':city);
 
     var tiao = getUrlParam('tiao');
     $('#' + tiao).trigger('click');
     var data = json[0]['火锅'];
+    console.log(data);
     var html = cut(data);
-    $('.eat-f')[0].innerHTML = html;
+    if($('.eat-f')[0]) {
+        $('.eat-f')[0].innerHTML = html;
+    }
     for (var i = 0; i < data.length; i++) {
         $($('.sz-img')[i]).attr('src', data[i].imgUrl);
     }
