@@ -64,6 +64,16 @@ var json = [{
     }]
 }]
 
+function setW() {
+    var iW = document.getElementsByClassName('sz-img');
+    if (iW.length > 0) {
+        for (var i = 0; i <iW.length;i++) {
+            iW[i].style.height = iW[i].clientWidth + 'px';
+            console.log(iW[0].clientHeight);
+        }
+    }
+}
+
 
 function cut(jsonArr) {
     var html = '';
@@ -104,6 +114,7 @@ $(function () {
         for (var i = 0; i < data.length; i++) {
             $($('.sz-img')[i]).attr('src', data[i].imgUrl);
         }
+        setW();
     });
 
     $('.nav-item').on('mouseenter', function (e) {
